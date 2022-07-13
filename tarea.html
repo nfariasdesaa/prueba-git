@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="=UTF-8">
+    <title>Clase 2 - Programacion 3 - Tarea</title>
+</head>
+
+<body style="background-color: honeydew; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    
+    <form action="/">
+        <h3>Formulario de Inscripción: </h3>
+        Nombre de usuario: <br>
+        <input type="text" placeholder="Escriba su usuario" name="nombre-usuario"> <br>
+        Nombre Completo<br>
+        <input type="text" placeholder="Ingrese su nombre completo" name="nombre-completo"><br> 
+        <br>
+        Seleccione Género: <br>
+        <input type="radio" name="genero" id="genero" value="1"> Masculino <br>
+        <input type="radio" name="genero" id="genero" value="2"> Femenino <br>
+        <input type="radio" name="genero" id="genero" value="3" checked> Prefiere no contestar <br>
+        <br>
+
+        Materias a cursar: <br>
+        <input type="checkbox" name="materias" id="materias"> Programacion <br>
+        <input type="checkbox" name="materias" id="materias"> Laboratorio de Computacion <br>
+        <input type="checkbox" name="materias" id="materias"> Organizacion Contable <br>
+        <input type="checkbox" name="materias" id="materias"> Inglés <br>
+        <br>
+        Fecha de Nacimiento:  <br>
+        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" min="1930-12-31" max="2004-12-31"><br>
+        <br>
+
+        Seleccionar Modalidad: <br>
+        <select name="modalidad" id="modalidad">
+            <option value="">Seleccione...</option>
+            <option value="1">Presencial</option>
+            <option value="2">Virtual</option>
+            <option value="2">Mixto</option>
+        </select> <br>
+        <br>
+
+        Ingrese su presentacion: <br>
+        <textarea style="resize:none" name="presentacion" id="presentacion" cols="30" rows="10" placeholder="Presentación . . ."></textarea>
+        <br>
+        <br>
+        <button>Confirmar y Enviar</button>
+    </form>
+</body>
+
+</html>
